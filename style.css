@@ -1,0 +1,179 @@
+  * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins' sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 10px;
+
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(83, 83, 172);
+            font-size: 1.01rem;
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 120px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+        }
+        .leftsection .button{
+            padding: 40px;
+        }
+
+        .leftsection .btn{
+            background-color: #16183a;
+            color: white;
+            border: 3px solid black;
+            border: 3px;
+            cursor: pointer;
+            font-size: 20px;
+        padding: 12px;        }
+
+        .rightsection img {
+            width: 100%;
+
+
+        }
+
+        .purple {
+            color: #800080;
+        }
+
+        #element {
+            color: #800080;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(235, 190, 190);
+            height: 1.2px;
+            margin: 60px 80px;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.6rem;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+
+        }
+
+        .image-top {
+
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+
+
+        }
+
+        .vertical-title {
+
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 5px;
+
+
+
+
+        }
+
+        footer {
+            background-color: #121439;
+
+        }
+
+        .footer {
+            color: white;
+            padding: 23px 122px;
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+        }
